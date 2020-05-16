@@ -45,7 +45,7 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
-import Comments from '@ckeditor/ckeditor5-comments/src/comments';
+// import Comments from '@ckeditor/ckeditor5-comments/src/comments';
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
 import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials';
 
@@ -91,7 +91,7 @@ ClassicEditor.builtinPlugins = [
 	HorizontalLine,
 	Alignment,
 	Autosave,
-	Comments,
+	// Comments,
 	SpecialCharacters,
 	SpecialCharactersEssentials,
 	Title
@@ -137,9 +137,7 @@ ClassicEditor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
-			'|',
-			'comment'
+			'mediaEmbed'
 		]
 	},
 	image: {
