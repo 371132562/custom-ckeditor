@@ -20,7 +20,7 @@ import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import Title from '@ckeditor/ckeditor5-heading/src/title';
+// import Title from '@ckeditor/ckeditor5-heading/src/title';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -93,8 +93,7 @@ ClassicEditor.builtinPlugins = [
 	Autosave,
 	// Comments,
 	SpecialCharacters,
-	SpecialCharactersEssentials,
-	Title
+	SpecialCharactersEssentials
 ];
 
 // Editor configuration.
@@ -105,7 +104,6 @@ ClassicEditor.defaultConfig = {
 			'redo',
 			'|',
 			'heading',
-			'title',
 			'alignment',
 			'|',
 			'fontFamily',
